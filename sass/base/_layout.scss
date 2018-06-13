@@ -1,0 +1,27 @@
+// Base Layout Stylesheet
+// This is where your layout of the project will go
+// ========================================
+
+.header {
+
+}
+
+.main {
+  padding: $spacer-m;
+
+  &__section {
+    margin: $spacer-lg $reset-0;
+
+    &--index {
+
+    }
+  }
+}
+
+.item-container {
+    margin: $spacer-m $reset-0;
+}
+
+.footer {
+
+}
