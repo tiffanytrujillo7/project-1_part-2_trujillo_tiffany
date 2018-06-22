@@ -2,6 +2,10 @@
 // This is where your layout of the project will go
 // ========================================
 
+body {
+  background-color: #D6D6F2;
+}
+
 .header {
 
 }
@@ -24,4 +28,8 @@
 
 .footer {
 
+}
+
+.main__section--index img {
+  width: 30%;
 }
