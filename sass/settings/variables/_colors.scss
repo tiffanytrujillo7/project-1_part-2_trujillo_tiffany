@@ -3,7 +3,7 @@
 
 $purple: #4C26F2;
 $yellow: #f6dd62;
-$lightpurple: #9585dd;
+$lightpurple: #7567f5;
 
 // Main Palette List
 $colors: (
@@ -11,3 +11,45 @@ $colors: (
   'yellow':     $yellow,
   'lightpurple':    $lightpurple,
 );
+
+.item-container--purple {
+	width: 100px;
+	height: 100px;
+	background: $purple;
+}
+
+.item-container--yellow {
+	width: 100px;
+	height: 100px;
+	background: $yellow;
+}
+
+.item-container--lightpurple {
+	width: 100px;
+	height: 100px;
+	background: $lightpurple;
+}
+
+.item-container--gray {
+	width: 100px;
+	height: 100px;
+	background: #b5b3b2;
+}
+
+.item-container--black {
+	width: 100px;
+	height: 100px;
+	background: black;
+}
+
+.item-container--green {
+	width: 100px;
+	height: 100px;
+	background: #e5cd55;
+}
+
+.item-container--white {
+	width: 100px;
+	height: 100px;
+	background: white;
+}

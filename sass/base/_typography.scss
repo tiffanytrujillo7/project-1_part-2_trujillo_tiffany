@@ -42,9 +42,13 @@ p {
 }
 
 a {
-
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  color: $purple;
+  font-weight: bold;
 
   &:hover {
-
+    color: $yellow;
+    background-color: $lightpurple;
   }
 }

@@ -3,7 +3,31 @@
 // ========================================
 
 body {
-  background-color: #D6D6F2;
+  background-color: #F5F5F5;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: $purple;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+    background-color: $yellow;
+    color: $purple;
 }
 
 .header {
@@ -17,7 +41,11 @@ body {
     margin: $spacer-lg $reset-0;
 
     &--index {
-
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: 5%;
     }
   }
 }
@@ -32,4 +60,8 @@ body {
 
 .main__section--index img {
   width: 30%;
+}
+
+nav {
+  display: inline-block;
 }
