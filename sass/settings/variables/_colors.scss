@@ -4,13 +4,21 @@
 $purple: #4C26F2;
 $yellow: #f6dd62;
 $lightpurple: #7567f5;
+$green: #92cc75;
+$red: #cc7c75;
 
 // Main Palette List
 $colors: (
   'purple':    $purple,
   'yellow':     $yellow,
   'lightpurple':    $lightpurple,
+  'green':    $green,
+  'red':    $red,
 );
+
+.item-container {
+  font-family: 'Quicksand', sans-serif;
+}
 
 .item-container--purple {
 	width: 100px;
@@ -45,7 +53,13 @@ $colors: (
 .item-container--green {
 	width: 100px;
 	height: 100px;
-	background: #e5cd55;
+	background: $green;
+}
+
+.item-container--red {
+	width: 100px;
+	height: 100px;
+	background: $red;
 }
 
 .item-container--white {
