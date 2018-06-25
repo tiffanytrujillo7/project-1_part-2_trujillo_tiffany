@@ -14,10 +14,11 @@ nav ul {
 }
 
 nav li {
-    float: left;
+  float: left;
 }
 
 nav li a {
+    font-size: 1.5rem;
     display: block;
     color: $purple;
     text-align: center;
@@ -60,6 +61,11 @@ nav li a:hover {
 
 .main__section--index img {
   width: 30%;
+}
+
+header img {
+  width: 10%;
+  padding-left: 1%;
 }
 
 nav {

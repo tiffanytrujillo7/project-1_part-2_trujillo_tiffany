@@ -5,19 +5,63 @@
 
   &--primary {
 
-    &:hover {
+    background-color: $lightpurple;
+    width: 20%;
+    text-align: center;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    text-decoration: none;
+    margin: 1%;
+    font-family: $secondary-font;
+    border-radius: 15px;
+    padding: 1%;
 
+    &:hover {
+      background-color: $yellow;
+      color: $purple;
     }
   }
 
   &--secondary {
+    background-color: $yellow;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    margin: 1%;
+    font-family: $secondary-font;
+    color: $purple;
+    border-radius: 15px;
+    padding: 1%;
 
     &:hover {
-
+      background-color: $lightpurple;
+      color: white;
     }
   }
 
   &--disabled {
+    background-color: $gray;
+    width: 20%;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    font-size: 1.5rem;
+    margin: 1%;
+    color: $lightpurple;
+    font-family: $secondary-font;
+    border-radius: 15px;
+    padding: 1%;
 
   }
+}
+
+.button--primary a {
+  text-decoration: none;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
 }

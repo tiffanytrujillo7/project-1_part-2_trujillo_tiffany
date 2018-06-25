@@ -6,6 +6,7 @@ $yellow: #f6dd62;
 $lightpurple: #7567f5;
 $green: #92cc75;
 $red: #cc7c75;
+$gray: #b5b3b2;
 
 // Main Palette List
 $colors: (
@@ -14,6 +15,7 @@ $colors: (
   'lightpurple':    $lightpurple,
   'green':    $green,
   'red':    $red,
+  'gray':    $gray,
 );
 
 .item-container {
@@ -24,46 +26,54 @@ $colors: (
 	width: 100px;
 	height: 100px;
 	background: $purple;
+  margin-bottom: 10px;
 }
 
 .item-container--yellow {
 	width: 100px;
 	height: 100px;
 	background: $yellow;
+  margin-bottom: 10px;
 }
 
 .item-container--lightpurple {
 	width: 100px;
 	height: 100px;
 	background: $lightpurple;
+  margin-bottom: 10px;
 }
 
 .item-container--gray {
 	width: 100px;
 	height: 100px;
-	background: #b5b3b2;
+	background: $gray;
+  margin-bottom: 10px;
 }
 
 .item-container--black {
 	width: 100px;
 	height: 100px;
 	background: black;
+  margin-bottom: 10px;
 }
 
 .item-container--green {
 	width: 100px;
 	height: 100px;
 	background: $green;
+  margin-bottom: 10px;
 }
 
 .item-container--red {
 	width: 100px;
 	height: 100px;
 	background: $red;
+  margin-bottom: 10px;
 }
 
 .item-container--white {
 	width: 100px;
 	height: 100px;
 	background: white;
+  margin-bottom: 10px;
 }

@@ -3,11 +3,12 @@
   <head>
     <title></title>
     <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <!-- include your icon as your favicon -->
   </head>
   <body>
     <header class="header">
-      <!-- include your logo -->
+      <img src="images/finallogo_WP.png" alt="logo">
       <nav>
         <ul>
           <li>
@@ -45,7 +46,17 @@
         <section class="main__section">
           <h3>Buttons</h3>
           <div class="item-container">
-            <!-- Make sure your button Primary, secondary and each have a hover state -->
+            <div class="button--primary">
+              <a href="">Primary Button</a>
+            </div>
+
+            <div class="button--secondary">
+              Secondary Button
+            </div>
+
+            <div class="button--disabled">
+              Disabled Button
+            </div>
           </div>
         </section>
 
@@ -58,15 +69,57 @@
               <div class="chip__avatar">
                 TT
               </div>
+              <div class="chip__text-container">
+                <div class="chip__text-title">
+                Tiffany Trujillo
+                </div>
+                <div class="chip__text-description">
+                  tiffanytrujillo7@ufl.edu
+                </div>
+              </div>
             </div>
           </div>
+
+          <div class="item-container">
+            <!-- Make sure you include a chip with a just a title and a chip with a title and description -->
+            <div class="chip">
+              <div class="chip__avatar">
+                TT
+              </div>
+              <div class="chip__text-container">
+                <div class="chip__text-title">
+                Tiffany Trujillo
+                </div>
+              </div>
+            </div>
+          </div>
+
         </section>
 
         <!-- This is where your form elements go -->
         <section class="main__section">
           <h3>Form Elements</h3>
           <div class="item-container">
-            <!-- Make sure you include a basic text input - with or without a label, a basic text input with an error and a basic select box - with or without a label -->
+
+            <form>
+                <label for="firstName" class="first-name">Label</label>
+                <input id="firstName" type="text">
+
+                <label for="firstName" class="first-name">Label</label>
+                <input id="firstName" type="text">
+                <span class="validity"></span>
+
+                <select>
+                  <option>Select Box</option>
+                  <option>Option 1</option>
+                  <option>Option 2</option>
+                  <option>Option 3</option>
+                  <option>Option 4</option>
+                  <option>Option 5</option>
+              </select>
+          </form>
+
+          </div>
           </div>
         </section>
 

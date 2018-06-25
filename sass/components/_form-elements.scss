@@ -1,10 +1,20 @@
 // Form Elements Stylesheet
 // ========================================
 
-// Label Styling -- Delete this if you are not using a label
+label, option, select, input {
+  color: $purple;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: bold;
+  width: 20%;
+}
 
+span {
+  padding-right: 30px;
+}
 
-// Basic Form Input Styling
-
-
-// Select Form Input Styling
+input:valid+span:after {
+  position: absolute;
+  content: '✖';
+  padding-left: 5px;
+  color: $red;
+}

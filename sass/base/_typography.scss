@@ -43,12 +43,12 @@ p {
 
 a {
   font-family: 'Quicksand', sans-serif;
-  font-size: 1.5rem;
-  color: $purple;
+  font-size: 1rem;
   font-weight: bold;
+  color: $purple;
+}
 
-  &:hover {
-    color: $yellow;
-    background-color: $lightpurple;
-  }
+.item-container a:hover {
+  background-color: $yellow;
+  color: $purple;
 }
